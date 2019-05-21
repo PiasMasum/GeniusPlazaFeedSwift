@@ -1,0 +1,6 @@
+framework module Pods_GeniusPlazaFeedSwift {
+  umbrella header "Pods-GeniusPlazaFeedSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

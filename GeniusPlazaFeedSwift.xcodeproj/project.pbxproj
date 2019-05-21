@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A8B039F99BEFAF2C44DA497 /* Pods_GeniusPlazaFeedSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8340E550C117581D862705C /* Pods_GeniusPlazaFeedSwift.framework */; };
 		C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */; };
 		C17F21F62294B72D00C8F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F52294B72D00C8F3D9 /* Assets.xcassets */; };
 		C17F21F92294B72D00C8F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */; };
 		C17F22042294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */; };
 		C17F220F2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */; };
 		C17F221D2294B91600C8F3D9 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F221C2294B91600C8F3D9 /* MediaViewController.swift */; };
+		C26894951DC0BC5E84F3C4A2 /* Pods_GeniusPlazaFeedSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071F01C7509FB1757AC6EA14 /* Pods_GeniusPlazaFeedSwiftTests.framework */; };
+		EE08FDA8BB6E176656CAA516 /* Pods_GeniusPlazaFeedSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F723ACC6F56761F93CF66 /* Pods_GeniusPlazaFeedSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D65A7A38AA2A8C3801481F /* Pods-GeniusPlazaFeedSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftTests/Pods-GeniusPlazaFeedSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		071F01C7509FB1757AC6EA14 /* Pods_GeniusPlazaFeedSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaFeedSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487EE47F5026BE3819BA8505 /* Pods-GeniusPlazaFeedSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwift.debug.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwift/Pods-GeniusPlazaFeedSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		60212B5DF524DA7857E06C45 /* Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftUITests/Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		963E6BEDBEF9FBD7B85BA6F9 /* Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftUITests/Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8340E550C117581D862705C /* Pods_GeniusPlazaFeedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaFeedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8F723ACC6F56761F93CF66 /* Pods_GeniusPlazaFeedSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaFeedSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29235D9404428CAE9465F60 /* Pods-GeniusPlazaFeedSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwift.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwift/Pods-GeniusPlazaFeedSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C17F21EB2294B72B00C8F3D9 /* GeniusPlazaFeedSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPlazaFeedSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17F21F52294B72D00C8F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +56,7 @@
 		C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftUITests.swift; sourceTree = "<group>"; };
 		C17F22102294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17F221C2294B91600C8F3D9 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		D375FB949C0732A0E43A07E1 /* Pods-GeniusPlazaFeedSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftTests/Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8B039F99BEFAF2C44DA497 /* Pods_GeniusPlazaFeedSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26894951DC0BC5E84F3C4A2 /* Pods_GeniusPlazaFeedSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE08FDA8BB6E176656CAA516 /* Pods_GeniusPlazaFeedSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E8520DF5555EF60B227C42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8340E550C117581D862705C /* Pods_GeniusPlazaFeedSwift.framework */,
+				071F01C7509FB1757AC6EA14 /* Pods_GeniusPlazaFeedSwiftTests.framework */,
+				AB8F723ACC6F56761F93CF66 /* Pods_GeniusPlazaFeedSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C17F21E22294B72B00C8F3D9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +104,8 @@
 				C17F22022294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests */,
 				C17F220D2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests */,
 				C17F21EC2294B72B00C8F3D9 /* Products */,
+				C1894ED7E0B0DC70D9575781 /* Pods */,
+				8E8520DF5555EF60B227C42F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +149,20 @@
 			path = GeniusPlazaFeedSwiftUITests;
 			sourceTree = "<group>";
 		};
+		C1894ED7E0B0DC70D9575781 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				487EE47F5026BE3819BA8505 /* Pods-GeniusPlazaFeedSwift.debug.xcconfig */,
+				B29235D9404428CAE9465F60 /* Pods-GeniusPlazaFeedSwift.release.xcconfig */,
+				05D65A7A38AA2A8C3801481F /* Pods-GeniusPlazaFeedSwiftTests.debug.xcconfig */,
+				D375FB949C0732A0E43A07E1 /* Pods-GeniusPlazaFeedSwiftTests.release.xcconfig */,
+				60212B5DF524DA7857E06C45 /* Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig */,
+				963E6BEDBEF9FBD7B85BA6F9 /* Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17F22132294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwift" */;
 			buildPhases = (
+				34A34A63192C4661FE755E73 /* [CP] Check Pods Manifest.lock */,
 				C17F21E72294B72B00C8F3D9 /* Sources */,
 				C17F21E82294B72B00C8F3D9 /* Frameworks */,
 				C17F21E92294B72B00C8F3D9 /* Resources */,
+				C96D92D37D58A27241E5BD5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17F22162294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftTests" */;
 			buildPhases = (
+				D10D0A8D208C882B145D0120 /* [CP] Check Pods Manifest.lock */,
 				C17F21FB2294B72D00C8F3D9 /* Sources */,
 				C17F21FC2294B72D00C8F3D9 /* Frameworks */,
 				C17F21FD2294B72D00C8F3D9 /* Resources */,
@@ -164,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17F22192294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftUITests" */;
 			buildPhases = (
+				EB206CF09AE44F3CBD8D0366 /* [CP] Check Pods Manifest.lock */,
 				C17F22062294B72D00C8F3D9 /* Sources */,
 				C17F22072294B72D00C8F3D9 /* Frameworks */,
 				C17F22082294B72D00C8F3D9 /* Resources */,
@@ -246,6 +291,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34A34A63192C4661FE755E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaFeedSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96D92D37D58A27241E5BD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeniusPlazaFeedSwift/Pods-GeniusPlazaFeedSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTNavigationDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeniusPlazaFeedSwift/Pods-GeniusPlazaFeedSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10D0A8D208C882B145D0120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaFeedSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB206CF09AE44F3CBD8D0366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaFeedSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C17F21E72294B72B00C8F3D9 /* Sources */ = {
@@ -418,6 +560,7 @@
 		};
 		C17F22142294B72D00C8F3D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487EE47F5026BE3819BA8505 /* Pods-GeniusPlazaFeedSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -435,6 +578,7 @@
 		};
 		C17F22152294B72D00C8F3D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29235D9404428CAE9465F60 /* Pods-GeniusPlazaFeedSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +596,7 @@
 		};
 		C17F22172294B72D00C8F3D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D65A7A38AA2A8C3801481F /* Pods-GeniusPlazaFeedSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +617,7 @@
 		};
 		C17F22182294B72D00C8F3D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D375FB949C0732A0E43A07E1 /* Pods-GeniusPlazaFeedSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +638,7 @@
 		};
 		C17F221A2294B72D00C8F3D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60212B5DF524DA7857E06C45 /* Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +658,7 @@
 		};
 		C17F221B2294B72D00C8F3D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963E6BEDBEF9FBD7B85BA6F9 /* Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
