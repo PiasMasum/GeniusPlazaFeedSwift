@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */; };
+		C17F21F12294B72B00C8F3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F21F02294B72B00C8F3D9 /* ViewController.swift */; };
+		C17F21F42294B72B00C8F3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F22294B72B00C8F3D9 /* Main.storyboard */; };
+		C17F21F62294B72D00C8F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F52294B72D00C8F3D9 /* Assets.xcassets */; };
+		C17F21F92294B72D00C8F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */; };
+		C17F22042294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */; };
+		C17F220F2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C17F22002294B72D00C8F3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C17F21E32294B72B00C8F3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17F21EA2294B72B00C8F3D9;
+			remoteInfo = GeniusPlazaFeedSwift;
+		};
+		C17F220B2294B72D00C8F3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C17F21E32294B72B00C8F3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17F21EA2294B72B00C8F3D9;
+			remoteInfo = GeniusPlazaFeedSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17F21EB2294B72B00C8F3D9 /* GeniusPlazaFeedSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPlazaFeedSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C17F21F02294B72B00C8F3D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C17F21F32294B72B00C8F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C17F21F52294B72D00C8F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17F21F82294B72D00C8F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C17F21FA2294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17F21FF2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaFeedSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftTests.swift; sourceTree = "<group>"; };
+		C17F22052294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17F220A2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaFeedSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftUITests.swift; sourceTree = "<group>"; };
+		C17F22102294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17F21E82294B72B00C8F3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F21FC2294B72D00C8F3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F22072294B72D00C8F3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17F21E22294B72B00C8F3D9 = {
+			isa = PBXGroup;
+			children = (
+				C17F21ED2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */,
+				C17F22022294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests */,
+				C17F220D2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests */,
+				C17F21EC2294B72B00C8F3D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C17F21EC2294B72B00C8F3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17F21EB2294B72B00C8F3D9 /* GeniusPlazaFeedSwift.app */,
+				C17F21FF2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.xctest */,
+				C17F220A2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17F21ED2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */,
+				C17F21F02294B72B00C8F3D9 /* ViewController.swift */,
+				C17F21F22294B72B00C8F3D9 /* Main.storyboard */,
+				C17F21F52294B72D00C8F3D9 /* Assets.xcassets */,
+				C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */,
+				C17F21FA2294B72D00C8F3D9 /* Info.plist */,
+			);
+			path = GeniusPlazaFeedSwift;
+			sourceTree = "<group>";
+		};
+		C17F22022294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */,
+				C17F22052294B72D00C8F3D9 /* Info.plist */,
+			);
+			path = GeniusPlazaFeedSwiftTests;
+			sourceTree = "<group>";
+		};
+		C17F220D2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */,
+				C17F22102294B72D00C8F3D9 /* Info.plist */,
+			);
+			path = GeniusPlazaFeedSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17F21EA2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17F22132294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwift" */;
+			buildPhases = (
+				C17F21E72294B72B00C8F3D9 /* Sources */,
+				C17F21E82294B72B00C8F3D9 /* Frameworks */,
+				C17F21E92294B72B00C8F3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeniusPlazaFeedSwift;
+			productName = GeniusPlazaFeedSwift;
+			productReference = C17F21EB2294B72B00C8F3D9 /* GeniusPlazaFeedSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C17F21FE2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17F22162294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftTests" */;
+			buildPhases = (
+				C17F21FB2294B72D00C8F3D9 /* Sources */,
+				C17F21FC2294B72D00C8F3D9 /* Frameworks */,
+				C17F21FD2294B72D00C8F3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17F22012294B72D00C8F3D9 /* PBXTargetDependency */,
+			);
+			name = GeniusPlazaFeedSwiftTests;
+			productName = GeniusPlazaFeedSwiftTests;
+			productReference = C17F21FF2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C17F22092294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17F22192294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftUITests" */;
+			buildPhases = (
+				C17F22062294B72D00C8F3D9 /* Sources */,
+				C17F22072294B72D00C8F3D9 /* Frameworks */,
+				C17F22082294B72D00C8F3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17F220C2294B72D00C8F3D9 /* PBXTargetDependency */,
+			);
+			name = GeniusPlazaFeedSwiftUITests;
+			productName = GeniusPlazaFeedSwiftUITests;
+			productReference = C17F220A2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17F21E32294B72B00C8F3D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pias khan";
+				TargetAttributes = {
+					C17F21EA2294B72B00C8F3D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C17F21FE2294B72D00C8F3D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C17F21EA2294B72B00C8F3D9;
+					};
+					C17F22092294B72D00C8F3D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C17F21EA2294B72B00C8F3D9;
+					};
+				};
+			};
+			buildConfigurationList = C17F21E62294B72B00C8F3D9 /* Build configuration list for PBXProject "GeniusPlazaFeedSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C17F21E22294B72B00C8F3D9;
+			productRefGroup = C17F21EC2294B72B00C8F3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17F21EA2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */,
+				C17F21FE2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests */,
+				C17F22092294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17F21E92294B72B00C8F3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F21F92294B72D00C8F3D9 /* LaunchScreen.storyboard in Resources */,
+				C17F21F62294B72D00C8F3D9 /* Assets.xcassets in Resources */,
+				C17F21F42294B72B00C8F3D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F21FD2294B72D00C8F3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F22082294B72D00C8F3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17F21E72294B72B00C8F3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F21F12294B72B00C8F3D9 /* ViewController.swift in Sources */,
+				C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F21FB2294B72D00C8F3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F22042294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17F22062294B72D00C8F3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17F220F2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C17F22012294B72D00C8F3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17F21EA2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */;
+			targetProxy = C17F22002294B72D00C8F3D9 /* PBXContainerItemProxy */;
+		};
+		C17F220C2294B72D00C8F3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17F21EA2294B72B00C8F3D9 /* GeniusPlazaFeedSwift */;
+			targetProxy = C17F220B2294B72D00C8F3D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C17F21F22294B72B00C8F3D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17F21F32294B72B00C8F3D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17F21F82294B72D00C8F3D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17F22112294B72D00C8F3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C17F22122294B72D00C8F3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17F22142294B72D00C8F3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C17F22152294B72D00C8F3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C17F22172294B72D00C8F3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPlazaFeedSwift.app/GeniusPlazaFeedSwift";
+			};
+			name = Debug;
+		};
+		C17F22182294B72D00C8F3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPlazaFeedSwift.app/GeniusPlazaFeedSwift";
+			};
+			name = Release;
+		};
+		C17F221A2294B72D00C8F3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeniusPlazaFeedSwift;
+			};
+			name = Debug;
+		};
+		C17F221B2294B72D00C8F3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeniusPlazaFeedSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pias.GeniusPlazaFeedSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeniusPlazaFeedSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17F21E62294B72B00C8F3D9 /* Build configuration list for PBXProject "GeniusPlazaFeedSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F22112294B72D00C8F3D9 /* Debug */,
+				C17F22122294B72D00C8F3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17F22132294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F22142294B72D00C8F3D9 /* Debug */,
+				C17F22152294B72D00C8F3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17F22162294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F22172294B72D00C8F3D9 /* Debug */,
+				C17F22182294B72D00C8F3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17F22192294B72D00C8F3D9 /* Build configuration list for PBXNativeTarget "GeniusPlazaFeedSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17F221A2294B72D00C8F3D9 /* Debug */,
+				C17F221B2294B72D00C8F3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17F21E32294B72B00C8F3D9 /* Project object */;
+}
