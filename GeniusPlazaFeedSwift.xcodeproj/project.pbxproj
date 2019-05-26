@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		6A8B039F99BEFAF2C44DA497 /* Pods_GeniusPlazaFeedSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8340E550C117581D862705C /* Pods_GeniusPlazaFeedSwift.framework */; };
 		C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */; };
-		C17F21F62294B72D00C8F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F52294B72D00C8F3D9 /* Assets.xcassets */; };
-		C17F21F92294B72D00C8F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */; };
 		C17F22042294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */; };
 		C17F220F2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */; };
-		C17F221D2294B91600C8F3D9 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F221C2294B91600C8F3D9 /* MediaViewController.swift */; };
-		C17F221F229A9C8600C8F3D9 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */; };
-		C17F2221229AA22500C8F3D9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F2220229AA22500C8F3D9 /* APIManager.swift */; };
-		C17F2223229AA29D00C8F3D9 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F2222229AA29D00C8F3D9 /* Media.swift */; };
+		C17F2226229AE59A00C8F3D9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F2225229AE59A00C8F3D9 /* APIManager.swift */; };
+		C17F2229229AE5D600C8F3D9 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F2228229AE5D600C8F3D9 /* Media.swift */; };
+		C17F222C229AE60900C8F3D9 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F222B229AE60900C8F3D9 /* MediaTableViewCell.swift */; };
+		C17F222F229AE64200C8F3D9 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F222E229AE64200C8F3D9 /* MediaViewController.swift */; };
+		C17F2234229AE69100C8F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17F2231229AE69100C8F3D9 /* Assets.xcassets */; };
+		C17F2235229AE69100C8F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17F2232229AE69100C8F3D9 /* LaunchScreen.storyboard */; };
 		C26894951DC0BC5E84F3C4A2 /* Pods_GeniusPlazaFeedSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071F01C7509FB1757AC6EA14 /* Pods_GeniusPlazaFeedSwiftTests.framework */; };
 		EE08FDA8BB6E176656CAA516 /* Pods_GeniusPlazaFeedSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F723ACC6F56761F93CF66 /* Pods_GeniusPlazaFeedSwiftUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +49,6 @@
 		B29235D9404428CAE9465F60 /* Pods-GeniusPlazaFeedSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwift.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwift/Pods-GeniusPlazaFeedSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C17F21EB2294B72B00C8F3D9 /* GeniusPlazaFeedSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPlazaFeedSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C17F21F52294B72D00C8F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C17F21F82294B72D00C8F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C17F21FA2294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17F21FF2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaFeedSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftTests.swift; sourceTree = "<group>"; };
@@ -58,10 +56,12 @@
 		C17F220A2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaFeedSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftUITests.swift; sourceTree = "<group>"; };
 		C17F22102294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C17F221C2294B91600C8F3D9 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
-		C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
-		C17F2220229AA22500C8F3D9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		C17F2222229AA29D00C8F3D9 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		C17F2225229AE59A00C8F3D9 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C17F2228229AE5D600C8F3D9 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		C17F222B229AE60900C8F3D9 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		C17F222E229AE64200C8F3D9 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		C17F2231229AE69100C8F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17F2233229AE69100C8F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D375FB949C0732A0E43A07E1 /* Pods-GeniusPlazaFeedSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftTests/Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,13 +129,12 @@
 			isa = PBXGroup;
 			children = (
 				C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */,
-				C17F2220229AA22500C8F3D9 /* APIManager.swift */,
-				C17F2222229AA29D00C8F3D9 /* Media.swift */,
-				C17F221C2294B91600C8F3D9 /* MediaViewController.swift */,
-				C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */,
-				C17F21F52294B72D00C8F3D9 /* Assets.xcassets */,
-				C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */,
 				C17F21FA2294B72D00C8F3D9 /* Info.plist */,
+				C17F2224229AE59A00C8F3D9 /* API */,
+				C17F2227229AE5D600C8F3D9 /* Model */,
+				C17F222A229AE60900C8F3D9 /* View */,
+				C17F222D229AE64200C8F3D9 /* Controller */,
+				C17F2230229AE69100C8F3D9 /* Resource */,
 			);
 			path = GeniusPlazaFeedSwift;
 			sourceTree = "<group>";
@@ -156,6 +155,47 @@
 				C17F22102294B72D00C8F3D9 /* Info.plist */,
 			);
 			path = GeniusPlazaFeedSwiftUITests;
+			sourceTree = "<group>";
+		};
+		C17F2224229AE59A00C8F3D9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C17F2225229AE59A00C8F3D9 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C17F2227229AE5D600C8F3D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C17F2228229AE5D600C8F3D9 /* Media.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17F222A229AE60900C8F3D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17F222B229AE60900C8F3D9 /* MediaTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17F222D229AE64200C8F3D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C17F222E229AE64200C8F3D9 /* MediaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17F2230229AE69100C8F3D9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C17F2231229AE69100C8F3D9 /* Assets.xcassets */,
+				C17F2232229AE69100C8F3D9 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		C1894ED7E0B0DC70D9575781 /* Pods */ = {
@@ -279,8 +319,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17F21F92294B72D00C8F3D9 /* LaunchScreen.storyboard in Resources */,
-				C17F21F62294B72D00C8F3D9 /* Assets.xcassets in Resources */,
+				C17F2234229AE69100C8F3D9 /* Assets.xcassets in Resources */,
+				C17F2235229AE69100C8F3D9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,11 +442,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17F2221229AA22500C8F3D9 /* APIManager.swift in Sources */,
 				C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */,
-				C17F221F229A9C8600C8F3D9 /* MediaTableViewCell.swift in Sources */,
-				C17F221D2294B91600C8F3D9 /* MediaViewController.swift in Sources */,
-				C17F2223229AA29D00C8F3D9 /* Media.swift in Sources */,
+				C17F222F229AE64200C8F3D9 /* MediaViewController.swift in Sources */,
+				C17F2226229AE59A00C8F3D9 /* APIManager.swift in Sources */,
+				C17F2229229AE5D600C8F3D9 /* Media.swift in Sources */,
+				C17F222C229AE60900C8F3D9 /* MediaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +482,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */ = {
+		C17F2232229AE69100C8F3D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C17F21F82294B72D00C8F3D9 /* Base */,
+				C17F2233229AE69100C8F3D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
