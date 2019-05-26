@@ -58,6 +58,7 @@ class MediaViewController: UIViewController {
         
         let items = ["Apple Music", "iTunes Music", "iOS Apps", "Audiobooks", "Books", "TV Shows", "Movies"]
         menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: BTTitle.index(6), items: items)
+        menuView.arrowTintColor = .black
         
         menuView.didSelectItemAtIndexHandler = {(indexPath: Int) -> Void in
             print("Did select item at index: \(indexPath)")
@@ -106,17 +107,6 @@ class MediaViewController: UIViewController {
         
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension MediaViewController: UITableViewDelegate, UITableViewDataSource {
