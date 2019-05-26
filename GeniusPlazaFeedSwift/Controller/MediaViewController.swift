@@ -29,7 +29,7 @@ class MediaViewController: UIViewController {
     func fetchMedia(url: String){
         let manager = APIManager()
         manager.getMediaByURL(url: url) { (medias, error) in
-            self.mediaArray = medias
+            self.mediaArray = medias!
             DispatchQueue.main.async {
                 self.mediaTableView!.reloadData()
             }

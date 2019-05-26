@@ -23,8 +23,9 @@ struct AppURLs {
 }
 
 class APIManager {
+
     
-    func getMediaByURL(url: String, completionHandler: @escaping  ([Media], Error?) -> ()) {
+    func getMediaByURL(url: String, completionHandler: @escaping  ([Media]?, Error?) -> ()) {
         
         Alamofire.request(url)
             .responseJSON { response in
@@ -45,6 +46,7 @@ class APIManager {
                     
                 case .failure(let error):
                     print(error)
+                    completionHandler(nil, error)
                     
                 }
         }
