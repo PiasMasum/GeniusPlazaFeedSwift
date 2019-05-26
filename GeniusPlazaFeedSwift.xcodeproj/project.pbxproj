@@ -14,6 +14,7 @@
 		C17F22042294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F22032294B72D00C8F3D9 /* GeniusPlazaFeedSwiftTests.swift */; };
 		C17F220F2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */; };
 		C17F221D2294B91600C8F3D9 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F221C2294B91600C8F3D9 /* MediaViewController.swift */; };
+		C17F221F229A9C8600C8F3D9 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */; };
 		C26894951DC0BC5E84F3C4A2 /* Pods_GeniusPlazaFeedSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071F01C7509FB1757AC6EA14 /* Pods_GeniusPlazaFeedSwiftTests.framework */; };
 		EE08FDA8BB6E176656CAA516 /* Pods_GeniusPlazaFeedSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F723ACC6F56761F93CF66 /* Pods_GeniusPlazaFeedSwiftUITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		C17F220E2294B72D00C8F3D9 /* GeniusPlazaFeedSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaFeedSwiftUITests.swift; sourceTree = "<group>"; };
 		C17F22102294B72D00C8F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17F221C2294B91600C8F3D9 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
 		D375FB949C0732A0E43A07E1 /* Pods-GeniusPlazaFeedSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-GeniusPlazaFeedSwiftTests/Pods-GeniusPlazaFeedSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 			children = (
 				C17F21EE2294B72B00C8F3D9 /* AppDelegate.swift */,
 				C17F221C2294B91600C8F3D9 /* MediaViewController.swift */,
+				C17F221E229A9C8600C8F3D9 /* MediaTableViewCell.swift */,
 				C17F21F52294B72D00C8F3D9 /* Assets.xcassets */,
 				C17F21F72294B72D00C8F3D9 /* LaunchScreen.storyboard */,
 				C17F21FA2294B72D00C8F3D9 /* Info.plist */,
@@ -159,7 +162,6 @@
 				60212B5DF524DA7857E06C45 /* Pods-GeniusPlazaFeedSwiftUITests.debug.xcconfig */,
 				963E6BEDBEF9FBD7B85BA6F9 /* Pods-GeniusPlazaFeedSwiftUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -395,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17F21EF2294B72B00C8F3D9 /* AppDelegate.swift in Sources */,
+				C17F221F229A9C8600C8F3D9 /* MediaTableViewCell.swift in Sources */,
 				C17F221D2294B91600C8F3D9 /* MediaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
