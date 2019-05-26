@@ -7,13 +7,35 @@
 //
 
 import UIKit
+import BTNavigationDropdownMenu
 
 class MediaViewController: UIViewController {
+     var menuView: BTNavigationDropdownMenu!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .red
-        // Do any additional setup after loading the view.
+        self.addMenu()
+    }
+    
+    func addMenu(){
+        
+        let rightMenuButton = UIBarButtonItem(title: "Media", style: .plain, target: self, action: #selector(toggleMenu))
+        self.navigationItem.rightBarButtonItem = rightMenuButton
+        
+        let items = ["Most Popular", "Latest", "Trending", "Nearest", "Top Picks"]
+        menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: BTTitle.index(2), items: items)
+        
+        menuView.didSelectItemAtIndexHandler = {(indexPath: Int) -> Void in
+            print("Did select item at index: \(indexPath)")
+        }
+        
+        rightMenuButton.customView = menuView
+
+    }
+    
+    @objc func toggleMenu(){
+        
     }
     
 
