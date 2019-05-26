@@ -11,6 +11,17 @@ import Alamofire
 import SwiftyJSON
 
 
+struct AppURLs {
+    static let AppleMusicURL = "https://rss.itunes.apple.com/api/v1/us/apple-music/top-songs/all/10/explicit.json"
+    static let ItunesMusicURL = "https://rss.itunes.apple.com/api/v1/us/itunes-music/hot-tracks/all/10/explicit.json"
+    static let IOSAppsURL = "https://rss.itunes.apple.com/api/v1/us/ios-apps/top-free/all/10/explicit.json"
+    static let AudiobooksURL = "https://rss.itunes.apple.com/api/v1/us/audiobooks/top-audiobooks/all/10/explicit.json"
+    static let BooksURL = "https://rss.itunes.apple.com/api/v1/us/books/top-free/all/10/explicit.json"
+    static let TvShowsURL = "https://rss.itunes.apple.com/api/v1/us/tv-shows/top-tv-episodes/all/10/explicit.json"
+    static let MoviesURL = "https://rss.itunes.apple.com/api/v1/us/movies/top-movies/all/10/explicit.json"
+
+}
+
 class APIManager {
     
     func getMediaByURL(url: String, completionHandler: @escaping  ([Media], Error?) -> ()) {

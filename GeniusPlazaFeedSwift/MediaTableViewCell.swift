@@ -23,8 +23,12 @@ class MediaTableViewCell: UITableViewCell {
         let width = UIScreen.main.bounds.width
         self.mediaImageView = UIImageView(frame: CGRect(x: 20, y: 20, width: 200, height: 200))
         self.mediaNameLabel = UILabel(frame: CGRect(x: 230, y: 20, width: width, height: 160))
-        self.mediaTypeLabel = UILabel(frame: CGRect(x: 230, y: 20, width: width, height: 30))
+        self.mediaTypeLabel = UILabel(frame: CGRect(x: 230, y: 190, width: width, height: 30))
         
+        self.mediaNameLabel?.lineBreakMode = .byWordWrapping
+        self.mediaNameLabel?.numberOfLines = 3
+        self.mediaNameLabel?.textAlignment = .left
+  
         self.addSubview(self.mediaImageView!)
         self.addSubview(self.mediaNameLabel!)
         self.addSubview(self.mediaTypeLabel!)

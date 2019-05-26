@@ -8,10 +8,13 @@
 
 import UIKit
 import BTNavigationDropdownMenu
+import SDWebImage
+
 
 class MediaViewController: UIViewController {
     var menuView: BTNavigationDropdownMenu!
     var mediaTableView: UITableView?
+    var mediaArray = [Media]()
 
 
     override func viewDidLoad() {
@@ -19,6 +22,18 @@ class MediaViewController: UIViewController {
         self.view.backgroundColor = .red
         self.addMenu()
         self.addTable()
+        self.fetchMedia(url: AppURLs.MoviesURL)
+    }
+    
+    func fetchMedia(url: String){
+        let manager = APIManager()
+        manager.getMediaByURL(url: url) { (medias, error) in
+            self.mediaArray = medias
+            DispatchQueue.main.async {
+                self.mediaTableView!.reloadData()
+            }
+        }
+
     }
     
     func addTable(){
@@ -74,7 +89,8 @@ extension MediaViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10    }
+        return self.mediaArray.count
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 240
     }
@@ -85,9 +101,11 @@ extension MediaViewController: UITableViewDelegate, UITableViewDataSource {
         if (cell == nil) {
             cell = MediaTableViewCell(style: .default, reuseIdentifier: "mediaTableViewCell")
         }
-        cell.mediaImageView?.image = UIImage(named: "hello")
-        cell.mediaNameLabel?.text = "hello"
-        cell.mediaTypeLabel?.text = "bello"
+        let media = self.mediaArray[indexPath.row] as? Media
+        
+        cell.mediaImageView?.sd_setImage(with: URL(string: media!.imageURL), placeholderImage: nil)
+        cell.mediaNameLabel?.text = media?.name
+        cell.mediaTypeLabel?.text = media?.type
         return cell
     }
 }
