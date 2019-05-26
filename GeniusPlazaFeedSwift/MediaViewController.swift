@@ -22,6 +22,7 @@ class MediaViewController: UIViewController {
         self.view.backgroundColor = .red
         self.addMenu()
         self.addTable()
+        self.navigationItem.title = "Top Movies"
         self.fetchMedia(url: AppURLs.MoviesURL)
     }
     
@@ -60,6 +61,41 @@ class MediaViewController: UIViewController {
         
         menuView.didSelectItemAtIndexHandler = {(indexPath: Int) -> Void in
             print("Did select item at index: \(indexPath)")
+            if (indexPath == 0) {
+                self.navigationItem.title = "Top Songs"
+                self.fetchMedia(url: AppURLs.AppleMusicURL)
+
+            }else if (indexPath == 1) {
+                self.navigationItem.title = "Hot Tracks"
+                self.fetchMedia(url: AppURLs.ItunesMusicURL)
+
+                
+            }else if (indexPath == 2) {
+                self.navigationItem.title = "Top Free"
+                self.fetchMedia(url: AppURLs.IOSAppsURL)
+
+                
+            }else if (indexPath == 3) {
+                self.navigationItem.title = "Top Audiobooks"
+                self.fetchMedia(url: AppURLs.AudiobooksURL)
+
+                
+            }else if (indexPath == 4) {
+                self.navigationItem.title = "Top Free"
+                self.fetchMedia(url: AppURLs.BooksURL)
+
+                
+            }else if (indexPath == 5) {
+                self.navigationItem.title = "Top Episodes"
+                self.fetchMedia(url: AppURLs.TvShowsURL)
+
+                
+            }else if (indexPath == 6) {
+                self.navigationItem.title = "Top Movies"
+                self.fetchMedia(url: AppURLs.MoviesURL)
+
+                
+            }
         }
         
         rightMenuButton.customView = menuView
