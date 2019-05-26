@@ -104,7 +104,16 @@ class MediaViewController: UIViewController {
     }
     
     @objc func toggleMenu(){
-        
+
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator .animate(alongsideTransition: { (context) in
+            self.mediaTableView?.reloadRows(at: (self.mediaTableView?.indexPathsForVisibleRows)!, with: UITableView.RowAnimation.none)
+            
+        }) { (context) in
+            
+        }
     }
     
 }
